@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+/* Layout css start */
+
+
+.sider {
+  overflow: auto;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.layout {
+  transition:0.5s;
+}
+
+.header {
+  padding: 0;
+}
+
+.content {
+  margin: 24px 16px 0;
+  overflow: initial;
+}
+
+.content-inner {
+  padding: 24px;
+  text-align: center;
+  border-radius: 10px; 
+}
+
+.footer {
+  text-align: center;
+  background: white;
+}
+
+
+/* Layout css end */
